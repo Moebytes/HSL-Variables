@@ -1,0 +1,23 @@
+.button2 {
+    display: flex;
+    padding: 0.25rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid var(--button2Stroke);
+    background: var(--button2Inactive);
+    color: var(--button2Text);
+    cursor: pointer;
+
+    color: var(--button2Text);
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+        background: var(--button2Active);
+    }
+}

@@ -1,0 +1,28 @@
+.select-option {
+    display: flex;
+    width: 7.375rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    padding: 0.2rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--selectOptionHover);
+    }
+}
+
+.select-option-color {
+    width: 0.75rem;
+    height: 0.75rem;
+    flex-shrink: 0;
+}
+
+.select-option-text {
+    color: var(--button1Text);
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

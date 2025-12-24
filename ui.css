@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Narnoor:wght@400;500;600;700;800&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+	--background: #ffffff;
+	--button1Text: #000000;
+	--button1Stroke: #000000;
+	--button1StrokeAlt: #ffffff;
+	--button1Inactive: #ffffff;
+	--button1Active: #ff3870;
+	--button2Text: #ffffff;
+	--button2Stroke: #000000;
+	--button2Inactive: #FF4E7D;
+	--button2Active: #FF6EBE;
+	--sliderText: #000000;
+    --selectOptionActive: #dce7ff;
+    --selectOptionHover: #ffafdb;
+}
+
+.figma-dark {
+	--sliderText: #ffffff;
+}
+
+* {
+    user-select: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+html {
+    font-size: 20px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.row-container-pad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-container-mini {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.column-container-scroll-parent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.5rem;
+    align-items: center;
+}
+
+.column-container-scroll {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 3.5rem;
+    width: max-content;
+}
+
+.space-between {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slider-label {
+    color: var(--sliderText);
+    text-align: center;
+    font-family: "Narnoor";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.slider-value {
+    color: var(--sliderText);
+    text-align: center;
+    font-family: "Narnoor";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.7;
+}

@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["code.ts"],
+    "compilerOptions": {
+        "noEmit": false,
+        "target": "es6",
+        "allowImportingTsExtensions": false
+    }
+}

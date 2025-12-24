@@ -1,0 +1,22 @@
+.minibutton {
+    display: flex;
+    padding: 0.09781rem 0.2935rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.10075rem;
+    border: 0.783px solid var(--button1Stroke);
+    background: var(--button1Active);
+    cursor: pointer;
+
+    color: var(--button1Stroke);
+    font-family: "Roboto Flex";
+    font-size: 0.58706rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+        border: 0.783px solid var(--button1StrokeAlt);
+        color: var(--button1StrokeAlt);
+    }
+}
