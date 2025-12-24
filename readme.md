@@ -1,6 +1,6 @@
 ## HSL Variables
 
-<img src="assets/image.png" height="500">
+<img src="assets/image.png" height="350">
 
 There are many plugins for making HSL adjustments in Figma, but most of them 
 edit the variables and styles destructively and replace them with a regular hex color.
