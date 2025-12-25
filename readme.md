@@ -21,6 +21,10 @@ Supported Edits:
 The colors are converted from RGB representation to HSL, where we apply the 
 adjustments you asked for, and then it is converted back to RGB. 
 
+### Design
+
+The design for this project is here: https://www.figma.com/design/jaW00nIUAI0Rm4MzCWuNSm/HSL-Variables?node-id=0-1&t=f02FLpL3jbpj6miS-1
+
 ### Building
 
 `npm install` \
