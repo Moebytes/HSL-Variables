@@ -16,6 +16,10 @@ Supported Edits:
 - Solid strokes
 - Solid effects
 
+### Plugin link
+
+https://www.figma.com/community/plugin/1585116460835232872/hsl-variables
+
 ### How does it work?
 
 The colors are converted from RGB representation to HSL, where we apply the 
